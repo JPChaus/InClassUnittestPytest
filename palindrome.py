@@ -1,6 +1,6 @@
 def main():
-    word = input(("Enter a string, any string: "))
-    palindrome(word);
+    word = input("Enter a string, any string: ")
+    palindrome(word)
 
 def palindrome(word):
     if(word == word[::-1]):
